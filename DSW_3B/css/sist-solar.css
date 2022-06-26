@@ -1,0 +1,159 @@
+/*Tentativa de fazer o sist solar em CSS puro*/
+
+
+/*SOL*/
+.sol{
+    background-color: darkorange;
+    width: 175px;
+    height: 175px;
+    border-radius: 360px;
+    margin: 30px;
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/*MERCURIO*/
+.mer{
+    background-color: rgb(177, 174, 145);
+    width: 5px;
+    height: 5px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+/*venus*/
+.ven{
+    background-color: gold;
+    width: 17px;
+    height: 17px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*terra*/
+.ter{
+    background-color: dodgerblue;
+    width: 20px;
+    height: 20px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Marte*/
+.mar{
+    background-color: firebrick;
+    width: 10px;
+    height: 10px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Jupiter*/
+.jup{
+    background-color:darksalmon;
+    width: 55px;
+    height: 55px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Saturno*/
+.sat{
+    background-color:khaki;
+    width: 45px;
+    height: 45px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+/*Tutorial para fzr anel de saturno - youtube*/
+.sat::after{
+    content: '';
+    margin: 22px;
+    border: 4px solid burlywood;
+    position: absolute;
+    border-top: 0;
+    border-radius: 20px;
+    transform: translate(-50%, -50%) rotate(30deg);
+    height: 13px;
+    width: 53px;       
+}
+
+/*gambiarra */
+.espaco{
+ height: 14px;
+ background-color: transparent;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+/*urano*/
+.ura{
+    background-color:darkturquoise;
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*netuno*/
+.net{
+    background-color:blue;
+    width: 37px;
+    height: 37px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundo{
+    padding: 30px;
+    animation: fundo 10s infinite linear;
+}
+
+@keyframes fundo{
+    0%{background-color: #000857;}
+
+    25%{background-color: #01073D}
+
+    50%{background-color: #000857;}
+
+    75%{background-color: #01073D}
+
+    100%{background-color: #000857;}
+
+}
+
+
+
