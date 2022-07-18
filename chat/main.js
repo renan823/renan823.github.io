@@ -1,4 +1,4 @@
-const socket = io("https://")
+const socket = io("https://pointed-pushy-basin.glitch.me")
 const body = document.querySelector("body")
 const main = document.querySelector("main")
 const input = document.querySelector("input")
