@@ -1,0 +1,39 @@
+.container{
+    margin: auto;
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 280px;
+}
+
+.item{
+    width: 280px;
+    height: 70px;
+    background-color: #333;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 55px;
+    align-items: center;
+}
+
+.text{
+    font-size: 30px;
+}
+
+body{
+    background: #333;
+    padding: 10px;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.link{
+    text-align: center;
+    margin-top: 50px;
+}
