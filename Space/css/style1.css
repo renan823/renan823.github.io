@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.paralaxe{
+    background-image: url("fundo.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90em;
+    padding: 500px
+}
+
+.navg{
+    height: 10em;
+    width: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+  background: #888; 
+}
+   
+::-webkit-scrollbar-thumb {
+  background: #555; 
+}
+
+  
+
+.body{
+  background-color: #333;
+}
+ 
+img{
+  width: 80vw;
+  height: 60vh;
+}
+
+@media only screen and (max-width: 500px){
+  img{
+    width: 60vw;
+    height: 30vh;
+  }
+}
+
+.efeito{
+  transition: width 1s, height 1s, transform 1s;
+}
+
+.efeito:hover {
+  animation-name: teste;
+  animation-duration: 1s; 
+  font-size: 40px;
+}
+  
+  
+@keyframes teste{
+  from{font-size: 24px;}
+  to{font-size: 40px;}
+}
+
+
+.botao{
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  background: #333;
+  color: whitesmoke;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.a{
+  text-decoration: none;
+  color: whitesmoke;
+}
+

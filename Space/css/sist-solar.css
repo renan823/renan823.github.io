@@ -1,0 +1,142 @@
+
+.sol{
+    background-color: darkorange;
+    width: 175px;
+    height: 175px;
+    border-radius: 360px;
+    margin: 30px;
+    margin-top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mer{
+    background-color: rgb(177, 174, 145);
+    width: 5px;
+    height: 5px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.ven{
+    background-color: gold;
+    width: 17px;
+    height: 17px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ter{
+    background-color: dodgerblue;
+    width: 20px;
+    height: 20px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mar{
+    background-color: firebrick;
+    width: 10px;
+    height: 10px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jup{
+    background-color:darksalmon;
+    width: 55px;
+    height: 55px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sat{
+    background-color:khaki;
+    width: 45px;
+    height: 45px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.sat::after{
+    content: '';
+    margin: 22px;
+    border: 4px solid burlywood;
+    position: absolute;
+    border-top: 0;
+    border-radius: 20px;
+    transform: translate(-50%, -50%) rotate(30deg);
+    height: 13px;
+    width: 53px;       
+}
+.espaco{
+ height: 14px;
+ background-color: transparent;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+
+}
+
+.ura{
+    background-color:darkturquoise;
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.net{
+    background-color:blue;
+    width: 37px;
+    height: 37px;
+    border-radius: 360px;
+    margin: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fundo{
+    padding: 30px;
+    animation: fundo 10s infinite linear;
+}
+
+@keyframes fundo{
+    0%{background-color: #000857;}
+
+    25%{background-color: #01073D}
+
+    50%{background-color: #000857;}
+
+    75%{background-color: #01073D}
+
+    100%{background-color: #000857;}
+
+}
+
+
+
