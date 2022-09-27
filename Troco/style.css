@@ -1,0 +1,78 @@
+:root{
+    --corLetra: white;
+    --fonteLetra: monospace;
+    --fundoContainer:  rgba(255, 255, 255, 0.4);
+}
+body{
+    background-image: linear-gradient(to right, deepskyblue, dodgerblue);
+}
+h2{
+    text-align: center;
+    font-family: var(--fonteLetra);
+    color: var(--corLetra);
+    font-size: 30px;
+}
+form{
+    width: 310px;
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.42);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.6px);
+    -webkit-backdrop-filter: blur(13.6px);
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    padding: 20px;
+}
+ul{
+    width: 330px;
+    min-height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(255, 255, 255, 0.42);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.6px);
+    -webkit-backdrop-filter: blur(13.6px);
+    border: 1px solid rgba(255, 255, 255, 0.44);
+    padding: 10px;
+}
+li{
+    width: 290px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: gray;
+    font-family: var(--fonteLetra);
+    font-size: 20px;
+    text-align: center;
+}
+#valor{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 290px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    font-family: var(--fonteLetra);
+    font-size: 20px;
+    text-align: center;
+}
+#enviar{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 120px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: gray;
+    font-family: var(--fonteLetra);
+    font-size: 20px;
+    text-align: center;
+}
