@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+  
+.main-editor {
+    background: white;
+    display: flex;
+    width: 100%;
+    padding: 1rem;
+    position:fixed;
+    height:90vh;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    display: block;
+    margin: auto;
+    width: 10vw;
+    height: 40px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+iframe{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    overflow-y: auto;
+    right: 0;
+    padding: 0.4rem;
+    height: 90vh;
+    border: 2px solid #333;
+}
+
+textarea{
+    width: 50%;
+    height: 90vh;
+    overflow-y: auto;
+    overflow-x: auto;
+    background-color: #333;
+    color: cyan;
+    padding: 20px;
+    font-weight: bolder;
+    font-size: 16px;
+    border: 2px solid #333;
+}
