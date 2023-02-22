@@ -1,0 +1,186 @@
+
+.blob{
+    width: 780px;
+    height: 900px;
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+    background-color: #21D4FD;
+    background-image: linear-gradient(45deg, #3023AE 0%, #f09 100%);
+    box-shadow: -10vmin 10vmin 0 rgba(255,255,255,0.07);
+    position: absolute;
+    top: -300px; left: -140px;
+    z-index: -99;
+    animation: morph 10s linear infinite alternate;
+}
+  
+.blob2{
+    width: 1100px;
+    height: 800px;
+    border-radius: 70% 30% 30% 60% / 70% 40% 60% 40%;
+    background-color: #21D4FD;
+    background-image: linear-gradient(45deg, #3023AE 0%, #f09 100%);
+    box-shadow: -10vmin 10vmin 0 rgba(255,255,255,0.07);
+    position: absolute;
+    top: 50%; left: 60%;
+    float: right;
+    transform: rotate(210deg);
+    z-index: -99;
+    animation: morph2 7s linear infinite alternate;
+}
+
+.view{
+  width: 90vw;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.box{
+  width: 45%;
+  min-height: 450px;
+  margin-top: 50px;
+  align-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
+
+.map{
+  width: 100%;
+  height: 100%;
+  border: 3px solid #3023AE;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.item{
+  background-color: #3023AE;
+  width: 100%;
+  height: 30%;
+  margin: 25px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-self: center;
+}
+
+.item-text{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.item-link{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+.item-link:hover{
+  text-decoration: underline;
+}
+
+.icon{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.quote-box{
+  width: 80vw;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.quote{
+  color: gold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  font-size: 45px;
+  text-decoration: underline;
+  text-shadow: 0 0 5px gold;
+  text-align: center;
+}
+
+.quote-author{
+  color: gold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  font-size: 35px;
+  text-decoration: underline;
+  text-shadow: 0 0 5px gold;
+  text-align: center;
+}
+
+.message{
+  width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.message-text{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3023AE;
+  font-weight: bolder;
+  vertical-align: middle;
+}
+
+.message-link{
+  color: #3023AE;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 750px){
+    .blob{
+        width: 380px;
+        height: 400px;
+    }
+    .blob2{
+        width: 700px;
+        height: 300px;
+        top: 70%; left: 40%;
+        float: right;
+        transform: rotate(-400deg);
+    }
+    .box{
+        width: 100%;
+    }
+    .view{
+        padding: 15px;
+        flex-direction: column;
+    }
+    .map{
+      width: 90%;
+      height: 40vh;
+    }
+    .item{
+      width: 80%;
+    }
+}
+
+@keyframes morph {
+    0% {
+      border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%;
+    }
+    100% {
+      border-radius: 40% 60%;
+    }
+}
+
+@keyframes morph2 {
+    0% {
+      border-radius: 70% 30% 30% 60% / 70% 40% 60% 40%;
+    }
+    100% {
+      border-radius: 70% 30%;
+    }
+}
+

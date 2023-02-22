@@ -1,0 +1,76 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+    width:100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: white; 
+}
+::-webkit-scrollbar-thumb {
+    background: #f09; 
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-around;
+    max-width: 35%;
+}
+
+.menu-item{
+    display: flex;
+    background-color: #3023AE;
+    padding: 10px;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.menu-link{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 5px gray;
+    padding: 15px;
+    max-width: 40%;
+}
+
+
+@media only screen and (max-width: 900px){
+    .menu{
+        max-width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .menu{
+        max-width: 100%;
+        justify-self: center;
+    }
+    .menu-item{
+        margin: 10px;
+    }
+}
